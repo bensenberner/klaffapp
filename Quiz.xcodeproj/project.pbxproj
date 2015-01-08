@@ -12,6 +12,8 @@
 		684A0D461A535BE6009BFD1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 684A0D451A535BE6009BFD1F /* Images.xcassets */; };
 		684A0D491A535BE6009BFD1F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 684A0D471A535BE6009BFD1F /* LaunchScreen.xib */; };
 		684A0D551A535BE6009BFD1F /* QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 684A0D541A535BE6009BFD1F /* QuizTests.m */; };
+		684A0D611A535C60009BFD1F /* BNRQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 684A0D5F1A535C60009BFD1F /* BNRQuizViewController.m */; };
+		684A0D621A535C60009BFD1F /* BNRQuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 684A0D601A535C60009BFD1F /* BNRQuizViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 		684A0D4E1A535BE6009BFD1F /* QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		684A0D531A535BE6009BFD1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		684A0D541A535BE6009BFD1F /* QuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizTests.m; sourceTree = "<group>"; };
+		684A0D5E1A535C60009BFD1F /* BNRQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRQuizViewController.h; sourceTree = "<group>"; };
+		684A0D5F1A535C60009BFD1F /* BNRQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRQuizViewController.m; sourceTree = "<group>"; };
+		684A0D601A535C60009BFD1F /* BNRQuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRQuizViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,9 @@
 		684A0D321A535BE6009BFD1F = {
 			isa = PBXGroup;
 			children = (
+				684A0D5E1A535C60009BFD1F /* BNRQuizViewController.h */,
+				684A0D5F1A535C60009BFD1F /* BNRQuizViewController.m */,
+				684A0D601A535C60009BFD1F /* BNRQuizViewController.xib */,
 				684A0D3D1A535BE6009BFD1F /* Quiz */,
 				684A0D511A535BE6009BFD1F /* QuizTests */,
 				684A0D3C1A535BE6009BFD1F /* Products */,
@@ -192,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				684A0D491A535BE6009BFD1F /* LaunchScreen.xib in Resources */,
+				684A0D621A535C60009BFD1F /* BNRQuizViewController.xib in Resources */,
 				684A0D461A535BE6009BFD1F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +221,7 @@
 			files = (
 				684A0D441A535BE6009BFD1F /* AppDelegate.m in Sources */,
 				684A0D411A535BE6009BFD1F /* main.m in Sources */,
+				684A0D611A535C60009BFD1F /* BNRQuizViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
